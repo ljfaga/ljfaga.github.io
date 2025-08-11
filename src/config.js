@@ -15,7 +15,7 @@ import Logo from "./images/logo.svg";
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "ljfaga";
 
 // Navbar Logo image
 export const navLogo = null;
@@ -35,7 +35,10 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "Olá! Eu sou o Lucas James Faga, educador e doutor em Física.\nAqui você vai encontrar um pouco da minha jornada no mundo da educação e na pesquisa científica: vídeoaulas de cosmologia, planos de aula de Física de (linhas construtivista e maker), artigos e dissetações publicadas, referências bibliográficas e demais trabalhos que realizei!\nPara quaisquer dúvidas e sugestões, fique a vontade para entrar em contato.\nUm abraço!";
+  
+export const moreInfo2 =
+  "Olá! Eu sou o Lucas James Faga, educador e doutor em Física.\nAqui você vai encontrar um pouco da minha jornada no mundo da educação e na pesquisa científica: vídeoaulas de cosmologia, planos de aula de Física de (linhas construtivista e maker), artigos e dissetações publicadas, referências bibliográficas e demais trabalhos que realizei!\nPara quaisquer dúvidas e sugestões, fique a vontade para entrar em contato.\nUm abraço!";
 
 /* Skills
  ************************************************************** 
@@ -44,53 +47,58 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="solar:square-academic-cap-bold" className="display-4" />,
+    name: "Doutor, mestre, bacharel e licenciado em Física",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    skill: <Icon icon="streamline-ultimate:saving-bank-international" className="display-4" />,
+    name: "Pesquisa de reconhecimento internacional",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    skill: <Icon icon="game-icons:star-swirl" className="display-4" />,
+    name: "Astrofísico (cosmologia)",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="iconoir:book" className="display-4" />,
+    name: "Produção de materiais didáticos",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+    skill: <Icon icon="clarity:blocks-group-line" className="display-4" />,
+    name: "BNCC",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
+    skill: <Icon icon="tdesign:user-talk-1" className="display-4" />,
+    name: "Divulgador científico",
   },
   {
     id: 9,
-    skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
-    name: "GitHub",
+    skill: <Icon icon="icomoon-free:make-group" className="display-4" />,
+    name: "Pedagogia costrutivista e maker",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="solar:code-line-duotone" className="display-4" />,
+    name: "Programador e cientista de dados",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="pixel:technology" className="display-4" />,
+    name: "Entusiasta de tecnologia",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="lucide:languages" className="display-4" />,
+    name: "Português, Inglês e Francês",
   },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+export const resume = "https://www.linkedin.com/in/lucas-james-faga-97000421b/";
 
 /* Projects
  ************************************************************** 

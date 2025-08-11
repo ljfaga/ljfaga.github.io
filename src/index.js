@@ -14,10 +14,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Provider store={store}>
-    <App
-      filteredProjects={filteredProjects}
-      projectCardImages={projectCardImages}
-    />
+    	<App
+      	filteredProjects={filteredProjects}
+     	 projectCardImages={projectCardImages}
+    	/>
   </Provider>
 );
 
